@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
+    "start:dotenv": "node --env-file=sample_environment.env dist/index.js",
     "build": "tsc"
   },
   "repository": {
